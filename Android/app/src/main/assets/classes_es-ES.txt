@@ -1,0 +1,80 @@
+una persona
+una bicicleta
+un coche
+una motocicleta
+un avión
+un autobús
+un tren
+un camión
+un barco
+un semáforo
+una boca de incendio
+un señal de stop
+un parquímetro
+un banco
+un pájaro
+un gato
+un perro
+un caballo
+una oveja
+una vaca
+un elefante
+un oso
+una cebra
+una jirafa
+una mochila
+un paraguas
+un bolso
+una corbata
+una maleta
+un frisbee
+unos esquís
+una tabla de nieve
+una pelota
+una cometa
+un bate de béisbol
+un guante de béisbol
+un monopatín
+una tabla de surf
+una raqueta de tenis
+una botella
+un vaso
+una taza
+un tenedor
+un cuchillo
+una cuchara
+un bol
+un plátano
+una manzana
+un bocadillo
+una naranja
+un brócoli
+una zanahoria
+un perrito caliente
+una pizza
+una rosquilla
+un pastel
+una silla
+un sofá
+una planta
+una cama
+una mesa
+un baño
+un televisor
+un ordenador portátil
+un ratón
+un mando a distancia
+un teclado
+un teléfono móvil
+un microondas
+un horno
+una tostadora
+un fregadero
+una nevera
+un libro
+un reloj
+un florero
+unas tijeras
+un oso de peluche
+un secador de pelo
+un cepillo de dientes
