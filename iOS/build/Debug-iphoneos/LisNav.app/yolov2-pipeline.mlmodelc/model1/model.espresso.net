@@ -1,0 +1,701 @@
+{
+  "storage" : "model.espresso.weights",
+  "analyses" : {
+
+  },
+  "properties" : {
+
+  },
+  "format_version" : 200,
+  "metadata_in_weights" : [
+
+  ],
+  "layers" : [
+    {
+      "top" : "CX",
+      "w" : 1,
+      "h" : 169,
+      "name" : "CX",
+      "nd_rank" : 4,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "CX",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 1
+    },
+    {
+      "top" : "CY",
+      "w" : 1,
+      "h" : 169,
+      "name" : "CY",
+      "nd_rank" : 4,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "CY",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 3
+    },
+    {
+      "top" : "ANCHORS_W",
+      "w" : 5,
+      "h" : 1,
+      "name" : "ANCHORS_W",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "ANCHORS_W",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 5
+    },
+    {
+      "top" : "ANCHORS_H",
+      "w" : 5,
+      "h" : 1,
+      "name" : "ANCHORS_H",
+      "nd_rank" : 3,
+      "type" : "load_constant",
+      "k" : 1,
+      "bottom" : "",
+      "debug_info" : "ANCHORS_H",
+      "n" : 1,
+      "weights" : {
+
+      },
+      "constant_blob" : 7
+    },
+    {
+      "axis_h" : 0,
+      "axis_w" : 2,
+      "bottom" : "218",
+      "axis_k" : 1,
+      "axis_n" : 3,
+      "axis_seq" : 4,
+      "weights" : {
+
+      },
+      "debug_info" : "yolo_trans_node",
+      "top" : "yolo_transp",
+      "type" : "transpose",
+      "name" : "yolo_trans_node"
+    },
+    {
+      "name" : "yolo_reshap",
+      "weights" : {
+
+      },
+      "dst_w" : 85,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 4,
+      "type" : "reshape",
+      "dst_h" : 5,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "yolo_transp",
+      "debug_info" : "yolo_reshap",
+      "dst_seq" : 1,
+      "dst_k" : 169,
+      "top" : "yolo_reshap"
+    },
+    {
+      "begin_104" : 0,
+      "begin_63" : 0,
+      "begin_59" : 0,
+      "begin_64" : 0,
+      "begin_105" : 0,
+      "begin_65" : 0,
+      "begin_0" : 1,
+      "begin_70" : 0,
+      "begin_66" : 0,
+      "begin_106" : 0,
+      "begin_110" : 0,
+      "begin_2" : 1,
+      "begin_71" : 0,
+      "begin_67" : 0,
+      "begin_68" : 0,
+      "begin_107" : 0,
+      "begin_111" : 0,
+      "begin_4" : 1,
+      "begin_72" : 0,
+      "begin_73" : 0,
+      "begin_69" : 0,
+      "begin_6" : 0,
+      "begin_74" : 0,
+      "begin_108" : 0,
+      "type" : "split_nd",
+      "begin_8" : 0,
+      "begin_112" : 0,
+      "begin_75" : 0,
+      "begin_10" : 0,
+      "begin_80" : 0,
+      "begin_76" : 0,
+      "begin_109" : 0,
+      "begin_113" : 0,
+      "begin_11" : 0,
+      "nd_axis" : 3,
+      "begin_81" : 0,
+      "begin_77" : 0,
+      "begin_114" : 0,
+      "begin_12" : 0,
+      "begin_78" : 0,
+      "begin_82" : 0,
+      "begin_13" : 0,
+      "begin_83" : 0,
+      "begin_79" : 0,
+      "begin_115" : 0,
+      "begin_14" : 0,
+      "begin_84" : 0,
+      "begin_15" : 0,
+      "begin_85" : 0,
+      "num_splits" : 6,
+      "begin_116" : 0,
+      "begin_120" : 0,
+      "begin_20" : 0,
+      "begin_86" : 0,
+      "begin_16" : 0,
+      "begin_90" : 0,
+      "begin_21" : 0,
+      "begin_91" : 0,
+      "begin_87" : 0,
+      "begin_17" : 0,
+      "begin_117" : 0,
+      "begin_121" : 0,
+      "begin_18" : 0,
+      "begin_92" : 0,
+      "begin_88" : 0,
+      "begin_22" : 0,
+      "begin_23" : 0,
+      "begin_89" : 0,
+      "begin_19" : 0,
+      "begin_93" : 0,
+      "begin_118" : 0,
+      "begin_122" : 0,
+      "begin_24" : 0,
+      "begin_94" : 0,
+      "begin_25" : 0,
+      "begin_95" : 0,
+      "begin_119" : 0,
+      "begin_123" : 0,
+      "begin_30" : 0,
+      "begin_26" : 0,
+      "begin_96" : 0,
+      "begin_124" : 0,
+      "begin_31" : 0,
+      "begin_97" : 0,
+      "begin_27" : 0,
+      "begin_28" : 0,
+      "begin_98" : 0,
+      "begin_32" : 0,
+      "begin_125" : 0,
+      "begin_33" : 0,
+      "begin_29" : 0,
+      "begin_99" : 0,
+      "begin_1" : 1,
+      "weights" : {
+
+      },
+      "begin_34" : 0,
+      "bottom" : "yolo_reshap",
+      "begin_3" : 1,
+      "begin_126" : 0,
+      "begin_35" : 0,
+      "begin_5" : 80,
+      "begin_36" : 0,
+      "begin_40" : 0,
+      "begin_127" : 0,
+      "name" : "split_boxes_node",
+      "begin_41" : 0,
+      "begin_37" : 0,
+      "begin_7" : 0,
+      "begin_42" : 0,
+      "begin_38" : 0,
+      "begin_9" : 0,
+      "begin_39" : 0,
+      "begin_43" : 0,
+      "begin_44" : 0,
+      "begin_45" : 0,
+      "begin_50" : 0,
+      "begin_46" : 0,
+      "begin_51" : 0,
+      "begin_47" : 0,
+      "begin_100" : 0,
+      "begin_52" : 0,
+      "debug_info" : "split_boxes_node",
+      "begin_48" : 0,
+      "top" : "tx,ty,tw,th,tc,classes_raw",
+      "begin_101" : 0,
+      "begin_53" : 0,
+      "begin_49" : 0,
+      "begin_54" : 0,
+      "begin_55" : 0,
+      "begin_102" : 0,
+      "begin_60" : 0,
+      "begin_56" : 0,
+      "begin_103" : 0,
+      "begin_57" : 0,
+      "begin_61" : 0,
+      "begin_62" : 0,
+      "begin_58" : 0
+    },
+    {
+      "name" : "tx:1",
+      "weights" : {
+
+      },
+      "dst_w" : 5,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 169,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "tx",
+      "debug_info" : "tx:1",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "tx:1"
+    },
+    {
+      "bottom" : "tx:1",
+      "weights" : {
+
+      },
+      "mode" : 3,
+      "debug_info" : "tx:1_sigm",
+      "top" : "tx:1_sigm",
+      "type" : "activation",
+      "name" : "tx:1_sigm"
+    },
+    {
+      "bottom" : "CX,tx:1_sigm",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "tx:1_add",
+      "nd_mode" : true,
+      "top" : "tx:1_add",
+      "type" : "elementwise",
+      "name" : "tx:1_add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "tx:1_add",
+      "alpha" : 0.076923079788684845,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "x",
+      "top" : "x",
+      "type" : "elementwise",
+      "name" : "x",
+      "beta" : 0
+    },
+    {
+      "name" : "ty:1",
+      "weights" : {
+
+      },
+      "dst_w" : 5,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 169,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "ty",
+      "debug_info" : "ty:1",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "ty:1"
+    },
+    {
+      "bottom" : "ty:1",
+      "weights" : {
+
+      },
+      "mode" : 3,
+      "debug_info" : "ty:1_sigm",
+      "top" : "ty:1_sigm",
+      "type" : "activation",
+      "name" : "ty:1_sigm"
+    },
+    {
+      "bottom" : "CY,ty:1_sigm",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "ty:1_add",
+      "nd_mode" : true,
+      "top" : "ty:1_add",
+      "type" : "elementwise",
+      "name" : "ty:1_add",
+      "beta" : 0
+    },
+    {
+      "bottom" : "ty:1_add",
+      "alpha" : 0.076923079788684845,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "y",
+      "top" : "y",
+      "type" : "elementwise",
+      "name" : "y",
+      "beta" : 0
+    },
+    {
+      "name" : "tw:1",
+      "weights" : {
+
+      },
+      "dst_w" : 5,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 169,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "tw",
+      "debug_info" : "tw:1",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "tw:1"
+    },
+    {
+      "bottom" : "tw:1",
+      "alpha" : 1,
+      "operation" : 27,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "tw:1_exp",
+      "top" : "tw:1_exp",
+      "type" : "elementwise",
+      "name" : "tw:1_exp",
+      "beta" : 0
+    },
+    {
+      "bottom" : "tw:1_exp,ANCHORS_W",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "tw:1_mul",
+      "nd_mode" : true,
+      "top" : "tw:1_mul",
+      "type" : "elementwise",
+      "name" : "tw:1_mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "tw:1_mul",
+      "alpha" : 0.076923079788684845,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "w",
+      "top" : "w",
+      "type" : "elementwise",
+      "name" : "w",
+      "beta" : 0
+    },
+    {
+      "name" : "th:1",
+      "weights" : {
+
+      },
+      "dst_w" : 5,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 169,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "th",
+      "debug_info" : "th:1",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "th:1"
+    },
+    {
+      "bottom" : "th:1",
+      "alpha" : 1,
+      "operation" : 27,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "th:1_exp",
+      "top" : "th:1_exp",
+      "type" : "elementwise",
+      "name" : "th:1_exp",
+      "beta" : 0
+    },
+    {
+      "bottom" : "th:1_exp,ANCHORS_H",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "th:1_mul",
+      "nd_mode" : true,
+      "top" : "th:1_mul",
+      "type" : "elementwise",
+      "name" : "th:1_mul",
+      "beta" : 0
+    },
+    {
+      "bottom" : "th:1_mul",
+      "alpha" : 0.076923079788684845,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "h",
+      "top" : "h",
+      "type" : "elementwise",
+      "name" : "h",
+      "beta" : 0
+    },
+    {
+      "name" : "tc:1",
+      "weights" : {
+
+      },
+      "dst_w" : 1,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 845,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "tc",
+      "debug_info" : "tc:1",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "tc:1"
+    },
+    {
+      "bottom" : "tc:1",
+      "weights" : {
+
+      },
+      "mode" : 3,
+      "debug_info" : "box_confidence",
+      "top" : "box_confidence",
+      "type" : "activation",
+      "name" : "box_confidence"
+    },
+    {
+      "name" : "classes_raw:1",
+      "weights" : {
+
+      },
+      "dst_w" : 80,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 845,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "classes_raw",
+      "debug_info" : "classes_raw:1",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "classes_raw:1"
+    },
+    {
+      "bottom" : "classes_raw:1",
+      "weights" : {
+
+      },
+      "nd_axis" : -1,
+      "debug_info" : "classes_confidence",
+      "top" : "classes_confidence",
+      "type" : "softmax_nd",
+      "name" : "classes_confidence"
+    },
+    {
+      "bottom" : "box_confidence,classes_confidence",
+      "alpha" : 1,
+      "operation" : 1,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "combined_classes_confidence",
+      "nd_mode" : true,
+      "top" : "combined_classes_confidence",
+      "type" : "elementwise",
+      "name" : "combined_classes_confidence",
+      "beta" : 0
+    },
+    {
+      "name" : "x:1",
+      "weights" : {
+
+      },
+      "dst_w" : 1,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 845,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "x",
+      "debug_info" : "x:1",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "x:1"
+    },
+    {
+      "name" : "y:1",
+      "weights" : {
+
+      },
+      "dst_w" : 1,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 845,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "y",
+      "debug_info" : "y:1",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "y:1"
+    },
+    {
+      "name" : "w:1",
+      "weights" : {
+
+      },
+      "dst_w" : 1,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 845,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "w",
+      "debug_info" : "w:1",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "w:1"
+    },
+    {
+      "name" : "h:1",
+      "weights" : {
+
+      },
+      "dst_w" : 1,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 845,
+      "mode" : 0,
+      "dynamic_shape" : false,
+      "bottom" : "h",
+      "debug_info" : "h:1",
+      "dst_seq" : 1,
+      "dst_k" : 1,
+      "top" : "h:1"
+    },
+    {
+      "bottom" : "x:1,y:1,w:1,h:1",
+      "weights" : {
+
+      },
+      "nd_axis" : 2,
+      "debug_info" : "all_boxes:0",
+      "top" : "all_boxes:0",
+      "type" : "stack_nd",
+      "name" : "all_boxes:0"
+    },
+    {
+      "name" : "all_boxes",
+      "weights" : {
+
+      },
+      "dst_w" : 4,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 845,
+      "mode" : 0,
+      "attributes" : {
+        "is_output" : 1
+      },
+      "dynamic_shape" : false,
+      "bottom" : "all_boxes:0",
+      "debug_info" : "all_boxes",
+      "dst_k" : 1,
+      "dst_seq" : 1,
+      "top" : "all_boxes"
+    },
+    {
+      "name" : "all_scores",
+      "weights" : {
+
+      },
+      "dst_w" : 80,
+      "version" : 1,
+      "dst_n" : 1,
+      "dst_nd_rank" : 3,
+      "type" : "reshape",
+      "dst_h" : 845,
+      "mode" : 0,
+      "attributes" : {
+        "is_output" : 1
+      },
+      "dynamic_shape" : false,
+      "bottom" : "combined_classes_confidence",
+      "debug_info" : "all_scores",
+      "dst_k" : 1,
+      "dst_seq" : 1,
+      "top" : "all_scores"
+    }
+  ]
+}

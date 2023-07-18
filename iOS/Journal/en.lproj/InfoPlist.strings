@@ -1,0 +1,4 @@
+NSLocationAlwaysUsageDescription = "The app needs your location to understand your surroundings.";
+NSLocationWhenInUseUsageDescription = "The app needs your location to understand your surroundings.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "The app needs your location to understand your surroundings.";
+NSCameraUsageDescription = "The camera is needed to understand your surroundings.";

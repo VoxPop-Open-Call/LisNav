@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "530a61dc235d49231d3e1782b0e7fb674dd9b4870ad7a547d26eaac7ea4f6326"
+build_start_time: [1686818517, 229189000]
+build_end_time: [1686818557, 128504000]
+inputs:
+  "/Users/Llogari/GitHub/LisNav/iOS/Journal/AboutViewController.swift": [1681147230, 783739974]
+  "/Users/Llogari/GitHub/LisNav/iOS/Journal/AggregatedContentViewController.swift": [1681254637, 159166076]
+  "/Users/Llogari/GitHub/LisNav/iOS/Journal/AppDelegate.swift": [1681320500, 143358876]
+  "/Users/Llogari/GitHub/LisNav/iOS/Journal/LegalViewController.swift": [1681170668, 88917123]
+  "/Users/Llogari/GitHub/LisNav/iOS/Journal/MainViewController.swift": [1684003922, 24400352]
+  "/Users/Llogari/GitHub/LisNav/iOS/Journal/ObjectDetection.swift": [1683999258, 580557394]
+  "/Users/Llogari/GitHub/LisNav/iOS/Journal/VideoCapture.swift": [1680999104, 724264615]
+  "/Users/Llogari/GitHub/LisNav/iOS/Journal/VideoViewController.swift": [1684001433, 963633998]
+  ? "/Users/Llogari/GitHub/LisNav/iOS/build/LisNav.build/Debug-iphonesimulator/LisNav.build/DerivedSources/CoreMLGenerated/yolov2-pipeline/yolov2-pipeline.swift"
+  : [1686818516, 868808053]

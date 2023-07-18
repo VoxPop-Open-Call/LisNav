@@ -1,0 +1,175 @@
+"audioLanguage" = "en-GB";
+"audioFrontRight" = "In front of you, on the right, you will find ";
+"audioBackRight" = "Behind you, to the right, you will find ";
+"audioBackLeft" = "Behind you, to the left, you will find ";
+"audioFrontLeft" = "In front of you, to the left, you will find ";
+"audioPosition" = "You are in ";
+"audioSurrounding" = "In front of you, there is: ";
+"audioNoLocation" = "Sorry! We were unable to find your location.";
+"audioNote" = "At this location, a user has added a ";
+"audioNoteDescription" = " with the remarks";
+
+"Warning" = "Warning";
+"Hazard" = "Hazard";
+"Emergency" = "Emergency";
+"Point of Interest" = "Point of interest";
+"Road Closure" = "Road closure";
+
+"Description" = "Description";
+"Type" = "Type";
+"Duration" = "Duration";
+"Add" = "Add";
+"Hours" = "hours";
+"Days" = "days";
+
+"close" = "Close ";
+"apptitle" = "Audio descriptor for the blind";
+"funding" = "This project is part of VoxPop, an innovative project that aims to foster the digital transition of the mobility sector in Lisbon, Portugal, through a process of change based on the 3 main vectors of digital transformation: People, Processes and Technology. The project is led by the Lisbon City Council (CML) and mobilises municipal entities, private companies and the civil society.
+
+This project is co-financed by the Municipality of Lisbon  and the European Regional Development Fund  through the Urban Innovative Actions Initiative.";
+
+"cup" = "a cup";
+"bottle" = "a bottle";
+"person" = "a person";
+"vase" = "a vase";
+"mouse" = "a mouse";
+"toilet" = "a toilet";
+"cell phone" = "a cell phone";
+"bowl" = "a bowl";
+"toothbrush" = "a toothbrush";
+"stop sign" = "a stop sign";
+"knife" = "a knife";
+"sink" = "a sink";
+"remote" = "a remote";
+"frisbee" = "a frisbee";
+"umbrella" = "an umbrella";
+"surfboard" = "a surfboard";
+"chair" = "a chair";
+"scissors" = "a scissors";
+"dining table" = "a dining table";
+"wine glass" = "a wine glass";
+"aeroplane" = "an aeroplane";
+"spoon" = "a spoon";
+"laptop" = "a laptop";
+"toaster" = "a toaster";
+"banana" = "a banana";
+"parking meter" = "a parking meter";
+"kite" = "a kite";
+"keyboard" = "a keyboard";
+"cake" = "a cake";
+"fork" = "a fork";
+"hair drier" = "a hair drier";
+"book" = "a book";
+"clock" = "a clock";
+"sports ball" = "a sports ball";
+"hot dog" = "a hot dog";
+"snowboard" = "a snowboard";
+"fire hydrant" = "a fire hydrant";
+"tvmonitor" = "a monitor";
+"donut" = "a donut";
+"traffic light" = "a traffic light";
+"handbag" = "a handbag";
+"car" = "a car";
+"bird" = "a bird";
+"skateboard" = "a skateboard";
+"suitcase" = "a suitcase";
+"apple" = "an apple";
+"tie" = "a tie";
+"orange" = "a orange";
+"microwave" = "a microwave";
+"refrigerator" = "a refrigerator";
+"carrot" = "a carrot";
+"boat" = "a boat";
+"baseball bat" = "a baseball bat";
+"cat" = "a cat";
+"bus" = "a bus";
+"oven" = "an oven";
+"bed" = "a bed";
+"bench" = "a bench";
+"potted plant" = "a potted plant";
+"motorbike" = "a motorbike";
+"truck" = "a truck";
+"sandwich" = "a sandwich";
+"broccoli" = "a broccoli";
+"baseball glove" = "a baseball glove";
+"sofa" = "a sofa";
+"train" = "a train";
+"elephant" = "an elephant";
+"teddy bear" = "a teddy bear";
+"bear" = "a bear";
+"tennis racket" = "a tennis racket";
+"backpack" = "a backpack";
+"skis" = "skis";
+"zebra" = "a zebra";
+"horse" = "a horse";
+"sheep" = "a sheep";
+"dog" = "a dog";
+"pizza" = "a pizza";
+"bicycle" = "a bicycle";
+"cow" = "a cow";
+"giraffe" = "a giraffe";
+
+"legal" = "Terms of Use
+
+
+Interpretation and Definitions
+
+
+Interpretation
+
+The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+
+
+Definitions
+
+For the purposes of this Disclaimer:
+
+• Company (referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Disclaimer) refers to 3FINERY LTD, SC659495. 7 Hozier House, 129 Hyndford Road, Lanark, Scotland, ML11 9GG. United Kingdom.
+• Service refers to the Application.
+• You means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+• Application means the software program provided by the Company downloaded by You on any electronic device named LisNav.
+
+
+Disclaimer
+
+The information contained on the Service is for general information purposes only. The Company assumes no responsibility for errors or omissions in the contents of the Service. In no event shall the Company be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. The Company reserves the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice.
+
+
+External Data Disclaimer
+
+The Service may contain data from external sources that are not provided or maintained by or in any way affiliated with the Company. Please note that the Company does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external sources.
+
+
+Errors and Omissions Disclaimer
+
+The information given by the Service is for general guidance on matters of interest only. Even if the Company takes every precaution to insure that the content of the Service is both current and accurate, errors can occur. Plus, given the changing nature of laws, rules and regulations, there may be delays, omissions or inaccuracies in the information contained on the Service. The Company is not responsible for any errors or omissions, or for the results obtained from the use of this information.
+
+
+Views Expressed Disclaimer
+
+The Service may contain views and opinions which are those of the authors and do not necessarily reflect the official policy or position of any other author, agency, organization, employer or company, including the Company. Data added by users are their sole responsibility and the users will take full responsibility, liability and blame for any libel or litigation that arises from it. The Company is not liable for any data published by users and reserves the right to delete any data for any reason whatsoever.
+
+
+No Responsibility Disclaimer
+
+The information on the Service is provided with the understanding that the Company makes no warranty, and expressively disclaims all warranties, as to the accuracy or completeness of the data and detections that the app provides to the end-user. In no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever arising out of or in connection with your access or use or inability to access or use the Service.
+
+
+\"Use at Your Own Risk\" Disclaimer
+
+All information in the Service is provided \"as is\", with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, express or implied, including, but not limited to warranties of performance, merchantability and fitness for a particular purpose. The Company will not be liable to You or anyone else for any decision made or action taken in reliance on the information given by the Service or for any consequential, special or similar damages, even if advised of the possibility of such damages. The Service should be used as an additional source of information, but it is not intended to replace other sources of information or serve as the sole source of environmental information.
+
+
+Contact Us
+
+If you have any questions about this Disclaimer, You can contact Us:
+• By email: contact@3finery.com";
+
+"legalNote" = "Please note that the use of our app constitutes your acceptance of these terms of use and your agreement to be bound by them.";
+"legalAccept" = "Accept";
+
+"Error" = "Error";
+"ErrorServer" = "Unable to connect to the server";
+"ErrorLocation" = "Unable to retrieve user's location";
+"Success" = "Success";
+"SuccessMessage" = "Annotation added successfully!";

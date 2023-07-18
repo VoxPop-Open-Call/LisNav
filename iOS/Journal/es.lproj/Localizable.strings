@@ -1,0 +1,175 @@
+"audioLanguage" = "es-ES";
+"audioFrontRight" = "Frente a ti, a la derecha, encontrarás ";
+"audioBackRight" = "Detrás de ti, a la derecha, encontrarás ";
+"audioBackLeft" = "Detrás de ti, a la izquierda, encontrarás ";
+"audioFrontLeft" = "Frente a ti, a la izquierda, encontrarás ";
+"audioPosition" = "Estás en ";
+"audioSurrounding" = "Frente a ti, hay: ";
+"audioNoLocation" = "¡Lo siento! No pudimos encontrar tu ubicación.";
+"audioNote" = "En esta ubicación, un usuario ha añadido una nota de ";
+"audioNoteDescription" = " con la descripción";
+
+"Warning" = "Advertencia";
+"Hazard" = "Peligro";
+"Emergency" = "Emergencia";
+"Point of Interest" = "Punto de interés";
+"Road Closure" = "Carretera cerrada";
+
+"Description" = "Descripción";
+"Type" = "Tipo";
+"Duration" = "Duración";
+"Add" = "Añadir";
+"Hours" = "horas";
+"Days" = "días";
+
+"close" = "Cerrar ";
+"apptitle" = "Audiodescripción para invidentes";
+"funding" = "Este proyecto forma parte de VoxPop, un proyecto innovador que tiene como objetivo impulsar la transición digital del sector de la movilidad en Lisboa, Portugal, a través de un proceso de cambio basado en los 3 principales vectores de transformación digital: Personas, Procesos y Tecnología. El proyecto está liderado por el Ayuntamiento de Lisboa (CML) y moviliza entidades municipales, empresas privadas y la sociedad civil.
+
+Este proyecto está cofinanciado por el Ayuntamiento de Lisboa y el Fondo Europeo de Desarrollo Regional a través de la Iniciativa de Acciones Urbanas Innovadoras.";
+
+"cup" = "una taza";
+"bottle" = "una botella";
+"person" = "una persona";
+"vase" = "un jarrón";
+"mouse" = "un ratón";
+"toilet" = "un baño";
+"cell phone" = "un teléfono";
+"bowl" = "un tazón";
+"toothbrush" = "un cepillo de dientes";
+"stop sign" = "una señal de stop";
+"knife" = "un cuchillo";
+"sink" = "un fregadero";
+"remote" = "un mando a distancia";
+"frisbee" = "un frisbee";
+"umbrella" = "un paraguas";
+"surfboard" = "una tabla de surf";
+"chair" = "una silla";
+"scissors" = "unas tijeras";
+"dining table" = "una mesa de comedor";
+"wine glass" = "una copa de vino";
+"aeroplane" = "un avion";
+"spoon" = "una cuchara";
+"laptop" = "un portátil";
+"toaster" = "una tostadora";
+"banana" = "un plátano";
+"parking meter" = "un parquímetro";
+"kite" = "una cometa";
+"keyboard" = "un teclado";
+"cake" = "un pastel";
+"fork" = "un tenedor";
+"hair drier" = "un secador de pelo";
+"book" = "un libro";
+"clock" = "un reloj";
+"sports ball" = "una pelota";
+"hot dog" = "un perrito caliente";
+"snowboard" = "una tabla de nieve";
+"fire hydrant" = "una boca de incendios";
+"tvmonitor" = "un monitor de televisión";
+"donut" = "una rosquilla";
+"traffic light" = "un semáforo";
+"handbag" = "un bolso";
+"car" = "un coche";
+"bird" = "un pájaro";
+"skateboard" = "un monopatín";
+"suitcase" = "una maleta";
+"apple" = "una manzana";
+"tie" = "una corbata";
+"orange" = "una naranja";
+"microwave" = "un microondas";
+"refrigerator" = "una nevera";
+"carrot" = "una zanahoria";
+"boat" = "un barco";
+"baseball bat" = "un bate de béisebol";
+"cat" = "un gato";
+"bus" = "un autobús";
+"oven" = "un horno";
+"bed" = "una cama";
+"bench" = "un banco";
+"potted plant" = "una planta";
+"motorbike" = "una moto";
+"truck" = "un camión";
+"sandwich" = "un bocadillo";
+"broccoli" = "un brócoli";
+"baseball glove" = "un guante de béisebol";
+"sofa" = "un sofá";
+"train" = "un tren";
+"elephant" = "un elefante";
+"teddy bear" = "un osito de peluche";
+"bear" = "un oso";
+"tennis racket" = "una raqueta de tenis";
+"backpack" = "una mochila";
+"skis" = "unos esquís";
+"zebra" = "una cebra";
+"horse" = "un caballo";
+"sheep" = "una oveja";
+"dog" = "un perro";
+"pizza" = "una pizza";
+"bicycle" = "una bicicleta";
+"cow" = "una vaca";
+"giraffe" = "una jirafa";
+
+"legal" = "Condiciones de uso
+
+
+Interpretación y Definiciones
+
+
+Interpretación
+
+Las palabras cuya letra inicial está en mayúscula tienen significados definidos bajo las siguientes condiciones. Las siguientes definiciones tendrán el mismo significado independientemente de que aparezcan en singular o en plural.
+
+
+Definiciones
+
+A los efectos de este Aviso Legal:
+
+• Empresa (referida como \"la Empresa\", \"Nosotros\", \"Nos\" o \"Nuestro\" en este Descargo de responsabilidad) hace referencia a 3FINERY LTD, SC659495. 7 Hozier House, 129 Hyndford Road, Lanark, Escocia, ML11 9GG. Reino Unido.
+• Servicio se refiere a la Aplicación.
+• Usted se refiere a la persona que accede al Servicio, o la empresa u otra entidad legal en nombre de la cual dicha persona accede o utiliza el Servicio, según corresponda.
+• Aplicación significa el programa de software proporcionado por la Compañía descargado por Usted en cualquier dispositivo electrónico llamado LisNav.
+
+
+Descargo de responsabilidad
+
+La información contenida en el Servicio es solo para fines de información general. La Compañía no asume ninguna responsabilidad por errores u omisiones en el contenido del Servicio. En ningún caso, la Compañía será responsable de ningún daño especial, directo, indirecto, consecuente o incidental ni de ningún tipo, ya sea en una acción contractual, negligencia u otro agravio, que surja de o en relación con el uso del Servicio. o el contenido del Servicio. La Compañía se reserva el derecho de realizar adiciones, eliminaciones o modificaciones a los contenidos del Servicio en cualquier momento sin previo aviso.
+
+
+Descargo de responsabilidad de datos externos
+
+El Servicio puede contener datos de fuentes externas que no son proporcionados ni mantenidos por la Compañía ni están afiliados de ninguna manera con ella. Tenga en cuenta que la Compañía no garantiza la precisión, relevancia, oportunidad o integridad de la información de estas fuentes externas.
+
+
+Descargo de responsabilidad por errores y omisiones
+
+La información proporcionada por el Servicio es solo para orientación general sobre asuntos de interés. Incluso si la Compañía toma todas las precauciones para asegurarse de que el contenido del Servicio sea actual y preciso, pueden ocurrir errores. Además, dada la naturaleza cambiante de las leyes, normas y reglamentos, puede haber demoras, omisiones o inexactitudes en la información contenida en el Servicio. La Compañía no es responsable de ningún error u omisión, ni de los resultados obtenidos del uso de esta información.
+
+
+Vistas expresadas Descargo de responsabilidad
+
+El Servicio puede contener puntos de vista y opiniones que pertenecen a los autores y no reflejan necesariamente la política o posición oficial de ningún otro autor, agencia, organización, empleador o empresa, incluida la Empresa. Los datos agregados por los usuarios son de su exclusiva responsabilidad y los usuarios asumirán toda la responsabilidad por cualquier difamación o litigio que surja de ello. La Compañía no es responsable de los datos publicados por los usuarios y se reserva el derecho de eliminar cualquier dato por cualquier motivo.
+
+
+Descargo de responsabilidad
+
+La información sobre el Servicio se proporciona con el entendimiento de que la Compañía no ofrece ninguna garantía y renuncia expresamente a todas las garantías en cuanto a la precisión o integridad de los datos y las detecciones que la aplicación proporciona al usuario final. En ningún caso, la Compañía o sus proveedores serán responsables de ningún daño especial, incidental, indirecto o consecuente que surja de o en relación con su acceso o uso o incapacidad para acceder o usar el Servicio.
+
+
+Descargo de responsabilidad \"Usar bajo su propio riesgo\"
+
+Toda la información en el Servicio se proporciona \"tal cual\", sin garantía de integridad, precisión, puntualidad o de los resultados obtenidos del uso de esta información, y sin garantía de ningún tipo, expresa o implícita, incluidas, entre otras, garantías de desempeño, comerciabilidad e idoneidad para un propósito particular. La Compañía no será responsable ante Usted o cualquier otra persona por cualquier decisión o acción tomada con base en la información brindada por el Servicio o por daños consecuentes, especiales o similares, incluso si se le advierte de la posibilidad de tales daños. El Servicio debe usarse como una fuente adicional de información, pero no pretende reemplazar otras fuentes de información ni servir como la única fuente de información ambiental.
+
+
+Contáctenos
+
+Si tiene alguna pregunta sobre este Aviso Legal, puede contactarnos:
+• Por correo electrónico: contact@3finery.com";
+
+"legalNote" = "Tenga en cuenta que el uso de nuestra aplicación constituye su aceptación de estos términos de uso y su aceptación de estar sujeto a ellos.";
+"legalAccept" = "Aceptar";
+
+"Error" = "Error";
+"ErrorServer" = "No es posible conectarse al servidor";
+"ErrorLocation" = "No se puede recuperar la ubicación del usuario";
+"Success" = "Éxito";
+"SuccessMessage" = "¡Anotación añadida con éxito!";
