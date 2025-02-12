@@ -1,7 +1,7 @@
 # LisNav
 LisNav is an app that merges Augmented Reality (AR) with Artificial Intelligence (AI) tailored specifically to empower and enhance the lives of the visually impaired providing on-demand environmental audio description.
 
-![alt text](https://www.3finery.com/images/LisNav-Download.png)
+![alt text](https://www.3finery.com/images/LisNav.webp)
 
 ## Features
 - Leverages open data to provide audio-described content in the city.
